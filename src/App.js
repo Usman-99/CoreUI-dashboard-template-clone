@@ -1,4 +1,4 @@
-import AllRoutes from "./routes/Allrotes"
+import AllRoutes from "./routes/Allroutes"
 import "./App.css"
 const App = () => {
   return (
