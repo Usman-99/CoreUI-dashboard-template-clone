@@ -5,7 +5,7 @@ function CustomFooter({ position, open }) {
   return (
     <>
       <MuiAppBar
-        sx={{ top: "auto", padding: "1rem 1.7rem", bottom: 0,height:"60px"}}
+        sx={{ top: "auto", padding: "1rem 1.7rem", bottom: 0,height:"50px"}}
         position={position}
         color="#040404"
         open={open}
