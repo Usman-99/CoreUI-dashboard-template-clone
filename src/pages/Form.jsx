@@ -13,7 +13,7 @@ import { useState } from "react";
 const AppointmentForm = () => {
   const [Type, setType] = useState("text");
   return (
-    <PageContainer width="lg" >
+    <PageContainer width="lg">
       <Grid container rowSpacing={2} columnSpacing={2}>
         {/* Title */}
         <Grid size={{ xs: 12 }}>
