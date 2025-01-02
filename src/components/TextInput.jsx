@@ -1,4 +1,4 @@
-import { TextField } from "@mui/material";
+import { Autocomplete, TextField } from "@mui/material";
 const TextInput = ({
   Label,
   Name,
@@ -16,13 +16,14 @@ const TextInput = ({
   Size="small",
   Onfocus,
   Select = false,
-  children
+  children,
+  autocomplete="off"
 }) => {
   return (
     <TextField
       label={Label}
       color={Color}
-      autoComplete="off"
+      autoComplete={autocomplete}
       name={Name}
       fullWidth={Full}
       type={Type}
