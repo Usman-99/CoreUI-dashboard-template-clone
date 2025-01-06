@@ -54,7 +54,7 @@ const PersonalInfoForm = () => {
         <AccordionDetails>
           <Grid container rowSpacing={2} columnSpacing={1}>
             {/* CNIC */}
-            <Grid size={{ xs: 12, sm: 6, md: 3.3, lg: 2.6 }}>
+            <Grid size={{ xs: 12, sm: 5, md: 3.1, lg: 2.6 }}>
               <TextInput
                 Label="CNIC Number"
                 Value={cnic}
@@ -64,9 +64,8 @@ const PersonalInfoForm = () => {
               />
             </Grid>
             <Grid
-              size={{ xs: 6, sm: 1.5, md: 1, lg: 0.7 }}
-              marginLeft={{ sm: 1 }}
-              marginRight={{ sm: 0.5, md: 0 }}
+              size={{ xs: 5, sm: 3, md: 1.35, lg: 0.7 }}
+              
             >
               <CustomButton
                 Variant="contained"
@@ -76,18 +75,17 @@ const PersonalInfoForm = () => {
               />
             </Grid>
             <Grid
-              size={{ xs: 6, sm: 2.4, md: 1.3, lg: 1.1 }}
-              marginRight={{ sm: 1 }}
+              size={{ xs: 7, sm: 4, md: 2.55, lg: 2 }}
             >
               <CustomButton
                 Variant="contained"
                 Full={true}
                 Text="Check Employee"
-                SX={{ ...buttonSX, fontSize: { xs: "0.7rem", sm: "0.55rem" } }}
+                SX={{ ...buttonSX, fontSize: { xs: "0.7rem", sm: "0.7rem",lg:"0.8rem" } }}
               />
             </Grid>
             {/* Expiry */}
-            <Grid size={{ xs: 12, sm: 6, md: 2.86, lg: 2.4 }}>
+            <Grid size={{ xs: 12, sm: 6, md: 2.5, lg: 1.95 }}>
               <TextInput
                 Label="Expiry Date"
                 Onfocus={() => setType("date")}
@@ -96,7 +94,7 @@ const PersonalInfoForm = () => {
               />
             </Grid>
             {/* Family Number */}
-            <Grid size={{ xs: 12, sm: 6, md: 3.3, lg: 2.6 }}>
+            <Grid size={{ xs: 12, sm: 6, md: 2.5, lg: 2.15 }}>
               <TextInput Label="Family Number" Type="number" />
             </Grid>
             {/* Verified */}
