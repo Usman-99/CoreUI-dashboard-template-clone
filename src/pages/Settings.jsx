@@ -40,7 +40,7 @@ const PersonalInfoForm = () => {
     "NTN",
   ];
   return (
-    <Paper sx={{ backgroundColor: "#ECF4FC", padding: "1rem" }}>
+    <Paper sx={{ backgroundColor: "#ECF4FC", padding: "1rem"}}>
       <Accordion defaultExpanded sx={{ backgroundColor: "#ECF4FC" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -200,7 +200,7 @@ const PersonalInfoForm = () => {
             </Grid>
             <Grid container size={{ md: 12, lg: 6 }}>
               {/* Permanent Address */}
-              <Grid size={{ xs: 12, sm: 6, md: 12 }}>
+              <Grid size={{ xs: 12}}>
                 <CustomButton
                   Text="Same as Current Address"
                   SX={{ textDecoration: "underline" }}
@@ -335,14 +335,14 @@ const PersonalInfoForm = () => {
               />
             </Grid>
             <CustomRadioControl
-              size={{ xs: 12, md: 3, lg: 3 }}
+              size={{ xs: 12 ,sm:6,md: 3, lg: 3 }}
               labelSx={radioSX}
               label="Expatriate Status"
               Fvalue="Yes"
               Svalue="No"
             />
             <CustomRadioControl
-              size={{ xs: 12, md: 3, lg: 3 }}
+              size={{ xs: 12,sm:6, md: 3, lg: 3 }}
               labelSx={radioSX}
               label="Zakat Exempted"
               Fvalue="Yes"
@@ -372,9 +372,9 @@ const PersonalInfoForm = () => {
               <CustomCheckboxControl
                 label="EOBI Member"
                 justify="flex-start"
-                size={{ xs: 12, md: 4 }}
+                size={{ xs: 12,sm:6, md: 4 }}
               />
-              <Grid size={{ xs: 12, md: 4 }}>
+              <Grid size={{ xs: 12,sm:6, md: 4 }}>
                 <TextInput Label="EOBI Number" />
               </Grid>
               <Grid size={{ xs: 12, sm: 6, md: 4 }}>
@@ -385,10 +385,10 @@ const PersonalInfoForm = () => {
             <Grid container size={{ xs: 12 }}>
               <CustomCheckboxControl
                 label="ESSI Member"
-                size={{ xs: 12, md: 4 }}
+                size={{ xs: 12,sm:6, md: 4 }}
                 justify="flex-start"
               />
-              <Grid size={{ xs: 12, md: 4 }}>
+              <Grid size={{ xs: 12,sm:6, md: 4 }}>
                 <TextInput Label="ESSI Number" />
               </Grid>
               <Grid size={{ xs: 12, sm: 6, md: 4 }}>
