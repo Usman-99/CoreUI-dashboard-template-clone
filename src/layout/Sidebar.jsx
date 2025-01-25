@@ -86,6 +86,7 @@ export default function DrawerComponent({ open, handleDrawerClose }) {
     >
       <DrawerHeader>
         <img
+          alt="sidebarlogo"
           style={{ display: "flex", justifyContent: "flex-start" }}
           src={allAppImages.logo}
           width={!isSmallScreen ? "220rem" : "180rem"}
